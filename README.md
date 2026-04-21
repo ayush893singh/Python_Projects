@@ -9,7 +9,7 @@ Datetime module (for timestamps)
 ## How It Works
 This is a simple console-based ATM system where users can:
 
-🔹 1. Create Account
+* 1. Create Account
 Enter details like:
 Name
 Account Number
@@ -19,13 +19,13 @@ Date of Birth
 PIN
 Account gets stored in memory (dictionary)
 
-🔹 2. Login
+* 2. Login
 User logs in using:
 Account Number
 PIN
 If correct → access ATM menu
 
-🔹 3. ATM Features
+* 3. ATM Features
 After login, user can:
 Check Balance
 Deposit Money
@@ -35,7 +35,7 @@ Mini Statement (Last 3 transactions)
 View Account Details
 Logout
 
-🔹 4. Transaction Handling
+* 4. Transaction Handling
 Every transaction is:
 Stored in memory (history)
 Saved in a file → accountnumber_transactions.txt
