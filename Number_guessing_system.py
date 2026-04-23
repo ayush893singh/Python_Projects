@@ -24,6 +24,7 @@ while True:
     else:
         print("--------Sahi Jawab--------")
         print(f"You took {counter} attempts")
+        print("Thank You!")
         break
 
     counter += 1
