@@ -1,7 +1,6 @@
 import qrcode
 
 class QRGenerator:
-
     def text_to_qr(self):
         text = input("Enter text or message: ")
 
