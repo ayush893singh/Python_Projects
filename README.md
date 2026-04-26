@@ -1,7 +1,7 @@
 # Python Projects Collection
 This repository contains multiple beginner-friendly Python projects to help you learn basic programming concepts in a practical way.
 
-📂 Projects Included
+** Projects Included **
 ### ATM System
 Deposit, withdraw, and balance check system 
 Folder: ATM_System
