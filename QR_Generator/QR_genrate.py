@@ -8,9 +8,11 @@ class QRGenerator:
         img.save("text_qr.png")
 
         print("\nText QR saved as text_qr.png")
+        
 
     def website_to_qr(self):
         url = input("Enter website URL (https://...): ")
+        
 
         img = qrcode.make(url)
         img.save("website_qr.png")
@@ -23,11 +25,13 @@ class QRGenerator:
         upi_id = input("Enter UPI ID : ")
         name = input("Enter Payee Name: ")
         amount = input("Enter Amount (Optional): ")
+        
 
         if amount == "":
             upi_link = f"upi://pay?pa={upi_id}&pn={name}"
         else:
             upi_link = f"upi://pay?pa={upi_id}&pn={name}&am={amount}&cu=INR"
+            
 
         img = qrcode.make(upi_link)
         img.save("upi_payment_qr.png")
