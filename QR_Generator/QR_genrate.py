@@ -59,6 +59,7 @@ class QRGenerator:
                 break
             else:
                 print("Invalid choice")
+print("Thank You!")
 
 qr = QRGenerator()
 qr.menu()
