@@ -1,5 +1,4 @@
 import random
-
 jackpot = random.randint(1, 100)
 counter = 1
 
