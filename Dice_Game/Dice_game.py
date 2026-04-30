@@ -1,3 +1,4 @@
+
 import random
 
 class DiceGame:
@@ -45,9 +46,9 @@ class DiceGame:
         if p1_score > p2_score:
             print(f"\nWinner: {self.players[0]}")
         elif p2_score > p1_score:
-            print(f"\n---Winner: {self.players[1]}---")
+             print(f"\nCongratulation you are Winner {self.players[1]}")
         else:
-            print("\nMatch Draw")
+            print("\n---Match Draw---")
 game = DiceGame()
 game.setup_players()
 game.play()
