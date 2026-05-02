@@ -180,29 +180,3 @@ while True:
 
 
 
-
-
-
-
-# # Program to copy contents from one file to another
-
-# # Input file names
-# source_file = input("Enter source file name: ")
-# destination_file = input("Enter destination file name: ")
-
-# try:
-#     # Open source file in read mode
-#     with open(source_file, "r") as src:
-#         data = src.read()
-
-#     # Open destination file in write mode
-#     with open(destination_file, "w") as dest:
-#         dest.write(data)
-
-#     print("File copied successfully!")
-
-# except FileNotFoundError:
-#     print("Source file not found!")
-
-# except Exception as e:
-#     print("An error occurred:", e)
